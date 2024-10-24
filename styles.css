@@ -26,8 +26,9 @@ header {
   justify-content: space-between;
   text-decoration: none;
   font-variant: small-caps;
+  border-radius: 10px 10px 0 0;
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
 }
 header nav ul li {
   text-decoration: none;
@@ -66,7 +67,8 @@ header nav ul li a {
   font-variant: small-caps;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 20px;
+  padding: 20px 20px;
+  border-radius: 0 0 10px 10px;
 }
 .logo {
   color: white;
@@ -86,7 +88,7 @@ h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-variant: small-caps;
   text-align: justify;
-  color: rgba(0, 0, 0, 0.749);
+  color: cadetblue; /* rgba(0, 0, 0, 0.749); */
   margin: 0 0 20px;
   padding: 40px 0 40px;
 }
@@ -103,7 +105,7 @@ p,
 }
 .FirstMeetingPhoto {
   max-width: 800px;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +120,8 @@ p,
   height: 15vh;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 20px;
+  border-radius: 10px;
+  padding: 20px 20px;
 }
 .HomeSection,
 .AboutProjectSection-div,
