@@ -84,7 +84,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
-.News {
+.ProjectNews {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-variant: small-caps;
   text-align: justify;
@@ -100,8 +100,15 @@ p,
   text-align: justify;
   color: rgba(0, 0, 0, 0.749);
 }
+.ProjectDuration{
+  font-style: oblique;
+}
 .Home {
   text-align: center;
+}
+.News_Container{
+  display: flex;
+  /* cia reik daugiau iterpti flexo parametru */
 }
 .FirstMeetingPhoto {
   max-width: 800px;
