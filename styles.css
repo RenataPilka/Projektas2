@@ -138,7 +138,8 @@ p,
 }
 .AboutProjectSection,
 .TeamSection,
-.ResultSection {
+.ResultSection, 
+.LTSection {
   background-image: url(BananuPlantacija2.jpg);
   height: 15vh;
   background-repeat: no-repeat;
@@ -149,7 +150,8 @@ p,
 .HomeSection,
 .AboutProjectSection-div,
 .TeamSection-div,
-.ResultSection-div {
+.ResultSection-div,
+.LTSection-div {
   /* background-color: rgb(230, 244, 244); */
   margin: 0;
   min-height: 100%;
